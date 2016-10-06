@@ -1,0 +1,23 @@
+body, html {
+	font-family: Avenir;
+	font-size: 90%;
+	text-align: center;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+h3 {
+	font-size: 1.5rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.formcontainer {
+  display: flex;
+  justify-content: space-around;
+}

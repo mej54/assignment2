@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Girl Scout Cookies</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="./CSS/girlscoutstyle.css"/>
+  </head>
+  <body>
+    <div id="towrite">
+      <h2>Welcome to the Girl Scout Cookie Order Form!</h2>
+      <h3>Please enter your information below.</h3>
+
+      <p>
+        Enter the number of boxes you would like to order (max of 100).
+      </p>
+     
+      <br/>
+
+      <div id="cookies" class="container">
+        <img src="./images/samoa.jpg" alt="Photo of samoa cookie" width=100px height=100px />
+        <img src="./images/tagalong.jpeg" alt="Photo of tagalong cookie" width=100px height=100px />
+        <img src="./images/thinmint.jpg" alt="Photo of thinmint cookie" width=100px height=100px />
+      </div>
+
+      <form id="myForm" action="">
+        <p class="formcontainer">
+          <label><input type="text" id="samoa"/>Samoa</label>
+          <label><input type="text" id="tagalong"/>Tagalong</label>
+          <label><input type="text" id="thinmint"/>Thinmint</label>
+        </p>
+        <br/>
+        <br/>
+        <br/>
+        <p>
+          Please enter your name (First, Last):
+        </p>
+          <label><input type="text" id="name"/></label>
+        <br/>
+        <br/>
+        <br/>
+        <input type="submit" name="submit"/>
+        <input type="reset" name="reset"/>
+      </form>
+
+      <script type="text/javascript" src="./JS/formvalidation.js"></script>
+      <script type="text/javascript" src="./JS/eventhandler.js"></script>
+    </div>
+  </body>
+</html>
